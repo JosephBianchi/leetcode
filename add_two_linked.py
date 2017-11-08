@@ -63,3 +63,13 @@ class linked_list:
     # Allows for bracket operator syntax (i.e. a[0] to return first item).
     def __getitem__(self,index):
         return self.get(index)
+
+
+my_list = linked_list()
+
+my_list.display()
+
+my_list.append(1)
+my_list.append(2)
+my_list.display()
+print(my_list.get(1))
