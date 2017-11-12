@@ -7,7 +7,6 @@ class linked_list:
     def __init__(self):
         self.head=node()
 
-    # Adds new node containing 'data' to the end of the linked list.
     def append(self,data):
         new_node=node(data)
         cur=self.head
@@ -72,4 +71,5 @@ my_list.display()
 my_list.append(1)
 my_list.append(2)
 my_list.display()
-print(my_list.get(1))
+my_list.append(2,3)
+my_list.display()
